@@ -1,0 +1,24 @@
+{
+  "name": "dd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^4.0.0",
+    "parcel": "^1.12.3"
+  },
+  "devDependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.0",
+    "parcel-bundler": "^1.12.3",
+    "popper.js": "^1.15.0",
+    "sass": "^1.19.0"
+  },
+  "scripts": {
+    "start": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
